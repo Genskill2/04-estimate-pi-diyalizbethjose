@@ -23,4 +23,15 @@ int main(void) {
     }
   }
 }
+float wallis_pi(int n)
+{
+  float pi=1.0;
+  float number;
+  for(i=1;i<n;i++)
+  {
+    number=4*i*i;
+    pi*= number/(number-1);
+  }
+  return(pi*2);
+}
 
