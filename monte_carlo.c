@@ -48,7 +48,7 @@ float mc_pi(int n)
     x= frandom();
     y=frandom();
     z= (x*x) + (y*y)
-      p=sqrt(z)
+      p=sqrt(z);
       if(p<=1)
       {
         count++;
