@@ -42,7 +42,7 @@ float mc_pi(int n)
 {
   int count=0;
   int i;
-  float x,y,z,pi,p;
+  double x,y,z,pi,p;
   for(i=0;i<n;i++)
   {
     x= frandom();
@@ -54,7 +54,7 @@ float mc_pi(int n)
         count++;
       }
   }
-    pi= (count/n)*4;
+    pi= (double)(count/n)*4;
   return(pi);
   
 }
