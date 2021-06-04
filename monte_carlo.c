@@ -41,7 +41,7 @@ int main(void) {
 float mc_pi(int n)
 {
   float count=0;
-  float x,y,z,pi,p;
+  float x,y,z,pi;
   for(int i=0;i<n;i++)
   {
     x= frandom();
