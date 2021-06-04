@@ -42,13 +42,14 @@ float mc_pi(int n)
 {
   int count=0;
   int i;
-  float x,y,z,pi;
+  float x,y,z,pi,p;
   for(i=0;i<n;i++)
   {
     x= frandom();
     y=frandom();
     z= (x*x) + (y*y)
-      if(z<=1)
+      p=sqrt(z)
+      if(p<=1)
       {
         count++;
       }
